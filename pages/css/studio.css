@@ -1,0 +1,4 @@
+:root { --page-bg: #1a1a1b; }
+body.is-loading {
+	overflow: hidden;
+}

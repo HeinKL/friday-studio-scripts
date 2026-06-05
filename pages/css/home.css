@@ -1,0 +1,23 @@
+ :root { --page-bg: #EEEEEE; }
+
+
+  /* @media (min-width: 992px) {
+    .work-list-card:nth-child(3) {
+      grid-column: span 2 !important;
+      margin: 2rem;
+    }
+    .work-list-card:nth-child(3) .work-list-img {
+      aspect-ratio: 16 / 9;
+    }
+  } */
+
+  body.is-loading {
+    overflow: hidden;
+  }
+
+  .cell:nth-child(3n) {
+    border-right: none;
+  }
+  .cell:nth-child(n + 4) {
+    border-bottom: none;
+  }

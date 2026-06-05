@@ -1,0 +1,33 @@
+.gsap_split_line {
+padding-bottom: 4px;
+}
+
+.gsap_split_word {
+padding-bottom: 4px;
+
+}
+
+.person .gsap_split_word {
+padding-right: 4px;
+text-decoration: underline;
+}
+
+.gsap_split_letter {
+padding-bottom: 5px;
+}
+
+.skip-loader #page-loader {
+display: none !important;
+}
+
+#page-transition {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: #1a1a1b;
+z-index: 9999;
+transform: translateY(0%);
+pointer-events: none;
+}
