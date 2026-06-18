@@ -125,7 +125,7 @@ items.forEach(el => {
     const r  = SW / 1440;
     const sf = Math.max(Math.sqrt(r), 0.45);
     return {
-      charScale:        (SW * 0.885) / CHARS_TOTAL_VBW,
+      charScale:        (SW * (SW < 768 ? 1.15 : 0.885)) / CHARS_TOTAL_VBW,
       particleAmount:   Math.max(6, Math.round(42 * sf)),
       particleScaleMin: 0.06 * sf,
       particleScaleMax: 0.21 * sf,
